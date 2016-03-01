@@ -247,3 +247,5 @@ video {
 .msitse h1 {margin-bottom: 0px; font-size: 45px; margin-top: 20px !important;}
 .msitse h4 {color: #F7CA18 !important;}
 iframe {border: 0px !important;}
+.black-section {background-color: rgb(49, 53, 64);}
+.black-section h2, .black-section h4 {color: white;}
