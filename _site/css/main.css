@@ -1,0 +1,251 @@
+.dots-list2,
+.dots-list2 ul {
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+
+.dots-list2 ul {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.dots-list2 li::before {
+    content: "•";
+    color: #000;
+    margin-left: -10px;
+    padding-right: 7px;
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.dots-list2 li {
+    padding-left: 10px;
+    /*color: #000;*/
+    color: #31343f;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.vertical-tabs a{
+    padding-right:5px !important;
+}
+
+.pheader {
+    font-size: 1.4em;
+    padding-top: 55px;
+    float: right;
+    margin-left: 30px;
+}
+
+.spec-tab {
+    width:20%;
+}
+
+.crit {
+    font-size: 13px;
+
+}
+
+ul.crit li {
+    border:none;
+    line-height:1.4;
+    padding: 5px 0;
+    text-indent: -2em;
+}
+
+ul.dsc li {
+    border:none;
+    line-height:1.4;
+    padding: 5px 0;
+    text-indent: -1.8em;
+}
+
+.white-bg{
+    background:#ffffff !important;
+}
+
+.colored-area[data-color="gray"] .testimonialbox.wgt-style .testim::after {
+    border-bottom-color:#fff;
+}
+
+.main-title {
+    /*text-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);*/
+    text-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+    color: #fff !important;
+}
+
+ .acs {
+        margin-bottom:0;
+}
+
+.fotorama__caption {
+    text-align: center;
+}
+
+/** adaptive styles **/
+
+@media only screen and (max-width: 1200px){
+    .spec-tab {
+        width:15%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .pheader {
+        padding-top: 55px;
+        font-size: 1.3em;
+    }
+    .spec-tab {
+        width:100%;
+    }
+    .crit-block {
+        margin-left: 105px;
+    }
+    .acs {
+        margin-bottom: 40px;
+    }
+    .dsc, .hidem {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .crit-block {
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .pheader {
+        padding-top: 30px;
+        font-size: 1.3em;
+    }
+    .hidem-2 {
+        display: none;
+    }
+    .mb-30-m {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 613px) {
+    .pheader {
+        padding-top: 15px;
+        font-size: 1.3em;
+    }
+    .hidem-2 {
+        display: none;
+    }
+}
+
+/** adaptive styles **/
+
+
+/*** Header styles ***/
+ul.questions li { text-align: left; list-style-type: none;}
+input.questions { margin-right: 20px; }
+.hidden-header { display: none; }
+
+video {
+  width: 100%;
+}
+
+/*** Fishbone styles ***/
+@media only screen and (min-width: 1202px) {
+  .fishbone {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+    clear: both;
+  }
+  .fishbone-tip {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    margin-right: 50px;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .fishbone li {
+    width: 165px;
+    padding: 25px 20px;
+    display: table-cell;
+    float: none;
+    table-layout: fixed;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 0px;
+  }
+  .top-tip:before {
+    content: "";
+    position: absolute;
+    border-top: 50px solid white;
+    border-left: 5px solid transparent;
+    border-right: 90px solid transparent;
+    bottom: 283px;
+  }
+  .bottom-tip:after {
+    content: "";
+    position: absolute;
+    margin-left: 200px;
+    border-bottom: 25px solid white;
+    border-left: 50px solid transparent;
+    border-right: 5px solid transparent;
+    bottom: 215px;
+  }
+  .fishbone-tip .btn { background-color: #f2f3f4; }
+  .left-padding {padding-left: 60px !important;}
+}
+@media only screen and (max-width: 1201px) {
+  ul.fishbone {display: none !important;}
+  .yellow-tip {background-color: #f8c54d !important;}
+  .green-tip {background-color: #2ecc71 !important;}
+  .blue-tip {background-color: #53bfe2 !important;}
+  .pink-tip {background-color: #ea5080 !important;}
+  .beautiful-tip {background-color: #B0D31F !important;}
+  .purple-tip {background-color: #9b59b6 !important;}
+  .orange-tip {background-color: #e67e22 !important;}
+  .left-padding {padding-left: 0px !important;}
+}
+.fishbone-tip {
+  background-color: white;
+  border: 1px solid #e6e7e8;
+  border-radius: 3px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #888888;
+}
+.fishbone-tip ul { list-style-image: none; }
+.fishbone li:hover { color: white; }
+.fishbone-tip .btn { width: 100%; }
+.green-tip:hover, .green { background-color: #2ecc71 !important; background-image: none; background-image: none; }
+.green:hover { background-color: #27ae60; }
+.pink, .pink-tip:hover { background-color: #ea5080 !important; background-image: none; background-image: none; }
+.pink:hover { background-color: #DB0A5B; }
+.blue, .blue-tip:hover { background-color: #53bfe2 !important; background-image: none; background-image: none; }
+.blue:hover { background-color: #52B3D9; }
+.yellow-tip:hover, .yellow { background-color: #f8c54d !important; background-image: none; background-image: none; }
+.yellow:hover { background-color: #f39c12; }
+.orange, .orange-tip:hover { background-color: #e67e22 !important; background-image: none; background-image: none; }
+.orange:hover { background-color: #EC644B; }
+.purple, .purple-tip:hover { background-color: #9b59b6 !important; background-image: none; background-image: none; }
+.purple:hover { background-color: #913D88; }
+.beautiful, .beautiful-tip:hover { background-color: #B0D31F !important; background-image: none; background-image: none; }
+.beautiful:hover { background-color: #2ECC71; }
+
+/*** Other styles ***/
+.left-title { text-align: left; }
+.nomargin { margin-bottom: 0px; }
+.question-text { font-weight: bold; }
+.msitse {background-color: #313540; opacity: 0.9; margin-top: 30px;}
+.msitse h1 {margin-bottom: 0px; font-size: 45px; margin-top: 20px !important;}
+.msitse h4 {color: #F7CA18 !important;}
+iframe {border: 0px !important;}
+.black-section {background-color: rgb(49, 53, 64);}
+.black-section h2, .black-section h4 {color: white;}
